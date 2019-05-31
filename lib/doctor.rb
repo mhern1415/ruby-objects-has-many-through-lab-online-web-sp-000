@@ -17,7 +17,14 @@ def new_appointment(patient, date)
 end
 
 def appointments 
-  Appointment.all.map do |
+  Appointment.all.select do |appointment|
+    appointment.doctor == self
+  end
+end
+
+def patients
+  Appointment.all.map do |patients|
+    
   
   
 end
