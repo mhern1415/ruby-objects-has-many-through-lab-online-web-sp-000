@@ -6,6 +6,7 @@ attr_accessor :name
   
   
   
+
   
   
   
@@ -14,8 +15,9 @@ attr_accessor :name
   
   
   
-  
-  
+def all 
+  @@all 
+end
   
   
 end
