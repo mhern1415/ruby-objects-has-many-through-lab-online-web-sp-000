@@ -12,7 +12,10 @@ def new_song(name, genre)
   Song.new(self, name, genre)
 end
 
-  
+def add_song(song)
+    @songs << song
+    song.artist = self
+  end  
   
   
   
