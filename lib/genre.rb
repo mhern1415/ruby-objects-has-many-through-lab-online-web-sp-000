@@ -9,6 +9,7 @@ attr_accessor :song
 
 def initialize(name)
   @name = name
+  @@all << self 
 end
 
 def songs
