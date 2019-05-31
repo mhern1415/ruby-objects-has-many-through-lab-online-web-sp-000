@@ -9,6 +9,7 @@ def initialize(name)
 end
   
 def new_song(name, genre)
+  self.new 
 
   
   
