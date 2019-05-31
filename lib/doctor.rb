@@ -24,7 +24,9 @@ end
 
 def patients
    Appointments.map do |appointment|
-      appointment.patients
+    appointment.patients
+  end
+end
   
   
 end
