@@ -12,6 +12,7 @@ def self.all
   @@all
 end 
 
+def new_appointment
   
   
   
