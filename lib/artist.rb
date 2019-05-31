@@ -3,7 +3,8 @@ attr_accessor :name
   
 @@all = [] 
   
-  
+def initialize(name)
+  @name = name 
   
   
 
@@ -15,7 +16,7 @@ attr_accessor :name
   
   
   
-def all 
+def self.all 
   @@all 
 end
   
